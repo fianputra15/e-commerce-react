@@ -3,7 +3,7 @@ import "./navbar.scss";
 import {ArrowDropDownIcon, NavigateIcon} from "../../../assets/";
 export default function Navbar(){
     return (
-        <div className="navbar-app bg-light">
+        <div className="navbar-app bg-light" >
             <div>
                 <img src={NavigateIcon} alt="icon" className="icon-back" />
                 <div className="menu-item">

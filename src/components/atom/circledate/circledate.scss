@@ -4,6 +4,10 @@ circle span {
   top: 50%;
   transform: translate(-50%, -50%);
   width: 90px;
+  font-size: 12px;
+  &:hover{
+    cursor: pointer;
+  }
 }
 circle {
   background: #f00;
