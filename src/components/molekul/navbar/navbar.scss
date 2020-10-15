@@ -1,0 +1,26 @@
+.navbar-app{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #68b35c;
+  .icon-back{
+    margin-top : 20px;
+    float : left;
+    margin-left : -10px;
+    width: 26%;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+  .location{
+    &:hover{
+      cursor: pointer;
+      background: #e2e4e4;
+    }
+  }
+  .menu-item{
+    margin-top: 8px;
+    margin-left: 50px;
+  }
+}
